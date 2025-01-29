@@ -1,0 +1,38 @@
+name: my_assistant
+description: "Helper for your life."
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.6.1
+
+dependencies:
+  flutter:
+    sdk: flutter
+  provider: ^6.0.5
+  cached_network_image: ^3.2.3
+  cupertino_icons: ^1.0.8
+  lottie: ^2.3.2
+  sqflite: ^2.0.0+4
+  path: ^1.8.0
+  image_picker: ^0.8.4+4
+  path_provider: ^2.0.15
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^5.0.0
+  flutter_launcher_icons: ^0.13.1
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/logo_gezelim.png
+
+flutter_launcher_icons:
+  android: true
+  ios: true
+  image_path: "assets/logo_gezelim.png"
+  min_sdk_android: 21
+  remove_alpha_ios: true
